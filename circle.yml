@@ -11,10 +11,5 @@ dependencies:
     - gem install bundler
   post:
     - bundle exec jekyll build
-  
-deployment:
-  production:
-    branch: master
-    commands:
-      - chmod +x ./build/automated_build.sh
-      - ./build/automated_build.sh
+    - chmod +x ./build/automated_build.sh
+    - ./build/automated_build.sh
