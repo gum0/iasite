@@ -1,4 +1,5 @@
 #!/bin/bash
 set -e
-echo "script evaluated"
-exit 0
+
+npm install --global now
+npm install --global surge
