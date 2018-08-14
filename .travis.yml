@@ -1,0 +1,7 @@
+language: ruby
+cache: bundler
+install:
+  - bundle install
+script:
+  - chmod +x ./build/automated_build.sh
+  - ./build/automated_build.sh
